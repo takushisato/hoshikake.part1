@@ -12,6 +12,8 @@ Route::get('/reserve/edit/{id}', [ReserveController::class, 'edit'])->name('rese
 Route::post('/reserve/update/{id}', [ReserveController::class, 'update'])->name('reserve.update');
 Route::post('/reserve/delete/{id}', [ReserveController::class, 'destroy'])->name('reserve.destroy');
 
+Route::view('/test', 'test');
+
 Route::get('/', function () {
     return redirect('/reserves');
 });

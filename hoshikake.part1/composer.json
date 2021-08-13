@@ -23,7 +23,7 @@
     "config": {
         "cache-dir": "/home/golnrrfq/public_html/hoshikake.part1/cache",
         "platform": {
-            "php": "7.3.29"
+            "php": "7.4.21"
         }
     },
     "autoload": {
